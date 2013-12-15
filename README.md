@@ -1,2 +1,3 @@
-js-timer
+JS TIMER
 ========
+A simple JavaScript timer.
