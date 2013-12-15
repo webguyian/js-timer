@@ -49,7 +49,7 @@
 
   Stopwatch.prototype.startTimer = function() {
     var sw = this;
-    this.timer = win.setInterval(function() {
+    this.timer = window.setInterval(function() {
           sw.seconds ++;
           if (sw.seconds == 60) {
             sw.seconds = 0;
